@@ -1,0 +1,38 @@
+<svg width="33" height="34" viewBox="0 0 33 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>documentation</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-3143 480)">
+<g id="documentation">
+<g id="XMLID 989">
+<g id="Group">
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(3143 -480)" fill="#EBEBEB"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(3147.84 -471.007)" fill="#EBEBEB"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(3147.84 -466.856)" fill="#EBEBEB"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path2_fill" transform="translate(3147.84 -462.706)" fill="#EBEBEB"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(3147.84 -475.158)" fill="#EBEBEB"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path3_fill" transform="translate(3169.29 -480)" fill="#EBEBEB"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 1.00277e-08 29.7459L 17.378 29.7459L 22.1365 24.9875L 22.1365 31.8212L 1.00277e-08 31.8212L 1.00277e-08 33.8965L 24.2118 33.8965L 24.2118 6.56683e-12L 1.00277e-08 6.56683e-12L 1.00277e-08 29.7459ZM 17.9859 26.2032L 17.9859 23.52L 20.6691 23.52L 17.9859 26.2032ZM 2.0753 2.0753L 22.1365 2.0753L 22.1365 21.4447L 15.9106 21.4447L 15.9106 27.6706L 2.0753 27.6706L 2.0753 2.0753Z"/>
+<path id="path1_fill" d="M 14.5271 0L 0 0L 0 2.0753L 14.5271 2.0753L 14.5271 0Z"/>
+<path id="path2_fill" d="M 14.5271 0L 0 0L 0 2.0753L 14.5271 2.0753L 14.5271 0Z"/>
+<path id="path3_fill" d="M 4.32347 2.07544L 4.32374 0.000276706L 2.24845 0L 2.24817 2.07544L -9.79551e-07 2.07544L -9.79551e-07 27.9338L 3.28589 34L 6.57177 27.9338L 6.57177 2.07544L 4.32347 2.07544ZM 4.49647 27.4078L 3.28589 29.6427L 2.0753 27.4078L 2.0753 8.30132L 4.49647 8.30132L 4.49647 27.4078ZM 4.49647 6.22603L 2.0753 6.22603L 2.0753 4.15073L 4.49647 4.15073L 4.49647 6.22603Z"/>
+</defs>
+</svg>

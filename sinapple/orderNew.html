@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Оформдление заказа</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <!--link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto&amp;subset=cyrillic,cyrillic-ext')-->
+    <link rel="stylesheet" href="assets/styles/app.min.css">
+  </head>
+  <body>
+    <div class="wrapper one-page">
+      <div class="order-page">
+        <div class="container">
+          <header class="order-top"><a class="order-left" href="#"><img class="order-left__img" src="assets/images/left-arrow.svg">
+              <div class="order-left__text">Вернуться к покупкам</div></a>
+            <div class="order-center"><a class="order-logo" href="#"><img class="order-logo__img" src="assets/images/order-logo.svg"></a></div>
+            <div class="order-right"></div>
+          </header>
+          <div class="order-tabs tabs">
+            <div class="order-tabs-links"><span class="order-tabs__link active" data-tab-link>Я новый покупатель</span><span class="order-tabs__link" data-tab-link>Я постоянный клиент</span></div>
+            <div class="order-tabs-content">
+              <div class="order-tabs-item tabs__content active">
+                <form class="order-form">
+                  <div class="order-form-block">
+                    <label class="order-form-label" for="name"><span class="order-form-label__title">Ваши имя и фамилия</span><span class="order-form-label__title1">Чтобы мы знали, как к Вам обращаться</span></label>
+                    <input class="order-form__input" id="name" type="text" placeholder="Например, Иван Иванов">
+                  </div>
+                  <div class="order-form-block">
+                    <label class="order-form-label" for="email"><span class="order-form-label__title">Ваш e-mail</span><span class="order-form-label__title1">Будем присылать оповещения о статусах заказа. Никакого спама!</span></label>
+                    <input class="order-form__input" id="email" type="text" placeholder="Например, vasya@gmail.com">
+                  </div>
+                  <div class="order-form-block">
+                    <label class="order-form-label" for="phone"><span class="order-form-label__title">Номер телефона</span><span class="order-form-label__title1">Нужен для подтверждения заказа</span></label>
+                    <input class="order-form__input" id="phone" type="text" placeholder="+7">
+                  </div>
+                  <div class="order-form-block">
+                    <label class="order-form-label" for="sity"><span class="order-form-label__title">Город доставки</span></label>
+                    <select class="order-form__input" id="sity" type="text" placeholder="Например, Иван Иванов">
+                      <option>Санкт-Петербург</option>
+                      <option>2</option>
+                    </select>
+                  </div>
+                  <div class="order-radio">
+                    <div class="order-radio-block">
+                      <div class="order-radio__title">Доставка</div>
+                      <label class="order-radio-label" name="cur">
+                        <input class="order-radio-label__radio" type="radio" id="cur" name="delivery" checked><span class="order-radio-label__custom"></span><span class="order-radio-label__text">Курьер</span>
+                      </label>
+                      <label class="order-radio-label" name="mail">
+                        <input class="order-radio-label__radio" type="radio" id="mail" name="delivery"><span class="order-radio-label__custom"></span><span class="order-radio-label__text">Почта</span>
+                      </label>
+                    </div>
+                    <div class="order-radio-block">
+                      <div class="order-radio__title">Оплата</div>
+                      <label class="order-radio-label" name="nal">
+                        <input class="order-radio-label__radio" type="radio" id="nal" name="pay" checked><span class="order-radio-label__custom"></span><span class="order-radio-label__text">Наличными</span>
+                      </label>
+                      <label class="order-radio-label" name="card">
+                        <input class="order-radio-label__radio" type="radio" id="card" name="pay"><span class="order-radio-label__custom"></span><span class="order-radio-label__text">Картой на сайте</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="order-form-bot">
+                    <input class="order-form-bot__submit" type="submit" value="Подтвердить заказ">
+                    <div class="order-form-bot-block">
+                      <div class="order-form-bot-block__top">Товары: 9 234 руб. <br> Доставка: бесплатно</div>
+                      <div class="order-form-bot-block__bot">Всего: 9 234 руб.</div>
+                    </div>
+                    <label class="catalog-fltr-block-check-item">
+                      <input class="catalog-fltr-block-check__input" type="checkbox">
+                      <div class="catalog-fltr-block-check__input-custom"></div>
+                      <div class="catalog-fltr-block-check__text">Я ознакомлен(а) и согласен(а) с условиями политики конфиденциальности</div>
+                    </label>
+                  </div>
+                </form>
+              </div>
+              <div class="order-tabs-item tabs__content">
+                <form class="order-form">
+                  <div class="order-form-top">
+                    <div class="order-form-top__title">Можно войти через соц сети</div><a class="order-form-top-link" href="#"><img class="order-form-top-link__img" src="assets/images/fb-color.svg"></a><a class="order-form-top-link" href="#"><img class="order-form-top-link__img" src="assets/images/g-color.svg"></a><a class="order-form-top-link" href="#"><img class="order-form-top-link__img" src="assets/images/vk-color.svg"></a>
+                  </div>
+                  <div class="order-form-top__post">или по e-mail и паролю</div>
+                  <div class="order-form-block">
+                    <label class="order-form-label" for="email-old"><span class="order-form-label__title">Ваш e-mail</span><span class="order-form-label__title1">Тот, которые Вы указывали при регистрации или прошлой покупке</span></label>
+                    <input class="order-form__input" id="email-old" type="text" placeholder="Например, vasya@gmail.com">
+                  </div>
+                  <div class="order-form-block">
+                    <label class="order-form-label" for="phone-old"><span class="order-form-label__title">Пароль</span><span class="order-form-label__title1">Мы его присылали Вам на e-mail</span></label>
+                    <input class="order-form__input" id="phone-old" type="text" placeholder="+7">
+                  </div>
+                  <div class="order-form-bot">
+                    <input class="order-form-bot__submit" type="submit" value="Войти">
+                    <div class="order-form-bot-block"><a class="order-form-bot-block__link" href="#">Забыли пароль?</a></div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <footer class="order-footer">
+            <div class="order-footer-item">
+              <div class="order-footer-item__title">Москва</div><a class="order-footer-item__link" href="#">+7 495 000 00 00</a>
+            </div>
+            <div class="order-footer-item">
+              <div class="order-footer-item__title">Вся Россия</div><a class="order-footer-item__link" href="#">+7 495 000 00 00</a>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/scripts/slick.min.js"></script>
+    <script src="assets/scripts/jquery.fancybox.js"></script>
+    <script src="assets/scripts/nouislider.js"></script>
+    <script src="assets/scripts/wNumb.js"></script>
+    <script src="assets/scripts/main.js"></script>
+  </body>
+</html>

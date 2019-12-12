@@ -1,0 +1,56 @@
+<svg width="34" height="32" viewBox="0 0 34 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>text-lines</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-2601 95)">
+<g id="text-lines">
+<g id="Group">
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(2601 -95)" fill="#70A3CA"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(2606.49 -90.0595)" fill="#70A3CA"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path2_fill" transform="translate(2606.49 -86.7415)" fill="#70A3CA"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(2606.49 -83.4234)" fill="#70A3CA"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(2606.49 -70.1521)" fill="#70A3CA"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path3_fill" transform="translate(2606.47 -80.1055)" fill="#70A3CA"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 28.4305 3.61357L 28.4305 -5.37039e-08L 0 -5.37039e-08L 0 28.6271C 0 30.3815 1.42734 31.8089 3.18166 31.8089L 30.8183 31.8089C 32.5727 31.8089 34 30.3815 34 28.6271L 34 3.61357L 28.4305 3.61357ZM 3.18166 29.789C 2.54111 29.789 2.01988 29.2677 2.01988 28.6271L 2.01988 2.01988L 26.4105 2.01988L 26.4105 4.62354L 26.4105 5.63352L 26.4105 28.6272C 26.4105 29.0372 26.4893 29.4289 26.6312 29.789L 3.18166 29.789L 3.18166 29.789ZM 31.9803 28.6271C 31.9802 29.2678 31.459 29.789 30.8184 29.789L 29.5924 29.789C 28.9518 29.789 28.4306 29.2678 28.4306 28.6271L 28.4306 5.63345L 31.9803 5.63345L 31.9803 28.6271Z"/>
+<path id="path1_fill" d="M 17.4519 0L 0 0L 0 2.01988L 17.4519 2.01988L 17.4519 0Z"/>
+<path id="path2_fill" d="M 17.4519 0L 0 0L 0 2.01988L 17.4519 2.01988L 17.4519 0Z"/>
+<path id="path3_fill" d="M 1.25647e-07 2.43187e-08L 1.25647e-07 8.65567L 17.4813 8.65567L 17.4813 2.43187e-08L 1.25647e-07 2.43187e-08ZM 15.4615 6.63579L 2.01988 6.63579L 2.01988 2.01988L 15.4615 2.01988L 15.4615 6.63579Z"/>
+</defs>
+</svg>

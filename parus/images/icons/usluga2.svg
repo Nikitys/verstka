@@ -1,0 +1,42 @@
+<svg width="34" height="29" viewBox="0 0 34 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>printing</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-2019 187)">
+<g id="printing">
+<g id="Group">
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(2019 -187)" fill="#70A3CA"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(2031.52 -179.005)" fill="#70A3CA"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path2_fill" transform="translate(2031.52 -175.882)" fill="#70A3CA"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path3_fill" transform="translate(2031.52 -172.758)" fill="#70A3CA"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 -6.07967e-09L 0 10.0149L 1.24923 10.0149L 1.24923 28.4357L 3.26911 28.4357L 3.26911 15.9827L 8.6271 15.9827L 8.6271 24.0599L 19.8821 24.0599L 25.3729 18.5691L 25.3729 15.9827L 30.7309 15.9827L 30.7309 28.4357L 32.7508 28.4357L 32.7508 10.0149L 34 10.0149L 34 -6.07967e-09L 0 -6.07967e-09ZM 8.6271 13.9627L 3.26911 13.9627L 3.26911 10.0149L 8.6271 10.0149L 8.6271 13.9627ZM 20.4737 20.6118L 20.4737 19.1607L 21.9248 19.1607L 20.4737 20.6118ZM 23.353 10.0149L 23.353 17.1408L 18.4538 17.1408L 18.4538 22.04L 10.647 22.04L 10.647 10.0149L 10.647 6.01747L 23.353 6.01747L 23.353 10.0149ZM 30.7309 13.9627L 25.3729 13.9627L 25.3729 10.0149L 30.7309 10.0149L 30.7309 13.9627ZM 31.9801 7.99505L 25.3729 7.99505L 25.3729 6.01753L 27.879 6.01753L 27.879 3.99766L 25.3729 3.99766L 25.3729 3.99759L 8.6271 3.99759L 8.6271 3.99766L 6.121 3.99766L 6.121 6.01753L 8.6271 6.01753L 8.6271 7.99505L 2.01988 7.99505L 2.01988 2.01988L 31.9801 2.01988L 31.9801 7.99505Z"/>
+<path id="path1_fill" d="M 8.95282 0L 0 0L 0 2.01988L 8.95282 2.01988L 8.95282 0Z"/>
+<path id="path2_fill" d="M 8.95282 0L 0 0L 0 2.01988L 8.95282 2.01988L 8.95282 0Z"/>
+<path id="path3_fill" d="M 8.95282 0L 0 0L 0 2.01988L 8.95282 2.01988L 8.95282 0Z"/>
+</defs>
+</svg>

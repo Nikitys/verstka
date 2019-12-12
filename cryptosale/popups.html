@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Всплывахи</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/app.min.css">
+  </head>
+  <body>
+    <div class="wrapper" style="undefined;">
+      <div class="main-content">
+        <header class="header">
+          <div class="container"><a class="header-logo" href="#"><img class="header-logo__img" src="assets/images/dark.svg"></a>
+            <nav class="header-nav"><a class="header-nav__link" href="#">Проекты</a><a class="header-nav__link active" href="#">Фонды</a><a class="header-nav__link" href="#">Новости</a>
+            </nav>
+            <div class="header-login"><a class="header-login__link all-next" href="#">Вход</a><a class="header-login__link" href="#">Регистрация</a></div>
+            <div class="header-login header-login--img header-login--dn"><a class="header-login__img" href="#" style="background:url('assets/images/icon-main-item.png') center center no-repeat;"></a></div>
+            <div class="header-mob-menu"><a class="header-mob-menu-link" href="#"><img class="header-mob-menu-link__img" src="assets/images/menu.svg"></a>
+              <div class="header-mob-menu-main">
+                <div class="header-mob-menu-left"><img class="header-mob-menu-left__img" src="assets/images/close-fff.svg"></div>
+                <div class="header-mob-menu-right">
+                  <div class="header-mob-menu-right-head"><a class="header-mob-menu-right-head-link" href="#"><img class="header-mob-menu-right-head-link__img" src="assets/images/icon-main-item.png">
+                      <div class="header-mob-menu-right-head-link__text">MiniApps</div></a></div>
+                  <div class="header-mob-menu-right-center"><a class="edit-main-left-nav__item active" href="#">Проекты</a><a class="edit-main-left-nav__item" href="#">Фонды</a><a class="edit-main-left-nav__item" href="#">Новости</a></div>
+                  <div class="header-mob-right-bot"><a class="edit-main-left-nav__item" href="#">Настройки</a><a class="edit-main-left-nav__item" href="#">Выход</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <div class="container">
+          <div class="popups-links"><a class="popups__link" href="javascript:;" data-fancybox data-src="#socials">Соц. сеть</a><a class="popups__link" href="javascript:;" data-fancybox data-src="#team-item">Член команды</a><a class="popups__link" href="javascript:;" data-fancybox data-src="#newitem">Новый пункт</a><a class="popups__link" href="javascript:;" data-fancybox data-src="#invest">Инвестировать</a><a class="popups__link" href="javascript:;" data-fancybox data-src="#povtor">Повторный запуск</a><a class="popups__link" href="javascript:;" data-fancybox data-src="#delete">Удаление проекта</a></div>
+        </div>
+        <div class="popup-content" style="display: none;" id="socials">
+          <div class="popup-head">
+            <div class="popup-container">
+              <div class="popup-head__title">Соц. сеть</div><a class="popup-head-close" href="#"><img class="popup-head-close__img" src="assets/images/close.svg"></a>
+            </div>
+          </div>
+          <div class="popup-main">
+            <div class="popup-container">
+              <div class="controls">
+                <select class="input-select">
+                  <option>1</option>
+                  <option>1</option>
+                  <option>1</option>
+                  <option>1</option>
+                </select>
+              </div>
+              <div class="controls">
+                <input class="controls-input floatLabel floatLabel" type="text" id="Email" name="email">
+                <label class="controls-label" for="Email">Ссылка</label>
+              </div>
+            </div>
+          </div>
+          <div class="popup-footer">
+            <div class="popup-container">
+              <button class="popup-footer__button">Добавить</button>
+            </div>
+          </div>
+        </div>
+        <div class="popup-content" style="display: none;" id="team-item">
+          <div class="popup-head">
+            <div class="popup-container">
+              <div class="popup-head__title">Добавить члена команды</div><a class="popup-head-close" href="#"><img class="popup-head-close__img" src="assets/images/close.svg"></a>
+            </div>
+          </div>
+          <div class="popup-main">
+            <div class="popup-container popup-container--flex">
+              <div class="popup-main-left"><a class="popup-main-left-link" href="#" style="background:url('assets/images/main-slider-bg.jpg') center center no-repeat;"><img class="popup-main-left-link__hover" src="assets/images/camera.svg"></a></div>
+              <div class="popup-main-right">
+                <div class="controls popup-main-right--first">
+                  <input class="controls-input floatLabel floatLabel" type="text" id="name" name="email">
+                  <label class="controls-label" for="name">Имя</label>
+                </div>
+                <div class="controls">
+                  <input class="controls-input floatLabel floatLabel" type="text" id="rol" name="email">
+                  <label class="controls-label" for="rol">Роль в команде</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="popup-footer">
+            <div class="popup-container">
+              <button class="popup-footer__button">Добавить</button>
+            </div>
+          </div>
+        </div>
+        <div class="popup-content" style="display: none;" id="newitem">
+          <div class="popup-head">
+            <div class="popup-container">
+              <div class="popup-head__title">Новый пункт</div><a class="popup-head-close" href="#"><img class="popup-head-close__img" src="assets/images/close.svg"></a>
+            </div>
+          </div>
+          <div class="popup-main">
+            <div class="popup-container">
+              <div class="controls">
+                <input class="controls-input floatLabel floatLabel" type="text" id="title" name="email">
+                <label class="controls-label" for="title">Заголовок</label>
+              </div>
+              <div class="controls">
+                <input class="controls-input floatLabel floatLabel" type="text" id="description" name="email">
+                <label class="controls-label" for="description">Описание</label>
+              </div>
+            </div>
+          </div>
+          <div class="popup-footer">
+            <div class="popup-container">
+              <button class="popup-footer__button">Добавить</button>
+            </div>
+          </div>
+        </div>
+        <div class="popup-content" style="display: none;" id="povtor">
+          <div class="popup-head">
+            <div class="popup-container">
+              <div class="popup-head__title">Повторный запуск</div><a class="popup-head-close" href="#"><img class="popup-head-close__img" src="assets/images/close.svg"></a>
+            </div>
+          </div>
+          <div class="popup-main">
+            <div class="popup-container">
+              <div class="controls">
+                <input class="controls-input input-date floatLabel floatLabel" type="text" id="start" name="email">
+                <label class="controls-label" for="start">Старт</label>
+              </div>
+              <div class="controls">
+                <input class="controls-input input-date floatLabel floatLabel" type="text" id="finish" name="email">
+                <label class="controls-label" for="finish">Финиш</label>
+              </div>
+            </div>
+          </div>
+          <div class="popup-footer">
+            <div class="popup-container">
+              <button class="popup-footer__button">Удалить</button>
+              <button class="popup-footer__button">Отменить</button>
+            </div>
+          </div>
+        </div>
+        <div class="popup-content" style="display: none;" id="delete">
+          <div class="popup-head">
+            <div class="popup-container">
+              <div class="popup-head__title">Удаление проекта</div><a class="popup-head-close" href="#"><img class="popup-head-close__img" src="assets/images/close.svg"></a>
+            </div>
+          </div>
+          <div class="popup-main">
+            <div class="popup-container">
+              <div class="popup-main__text">Точно удалить проект?</div>
+            </div>
+          </div>
+          <div class="popup-footer">
+            <div class="popup-container">
+              <button class="popup-footer__button">Удалить</button>
+              <button class="popup-footer__button">Отменить</button>
+            </div>
+          </div>
+        </div>
+        <div class="popup-content popup-content--invest" style="display: none;" id="invest">
+          <div class="popup-head">
+            <div class="popup-container">
+              <div class="popup-head__title">Инвестировать</div><a class="popup-head-close" href="#"><img class="popup-head-close__img" src="assets/images/close.svg"></a>
+            </div>
+          </div>
+          <div class="popup-main popup-main--margin">
+            <div class="popup-container">
+              <div class="popup-main-top">
+                <div class="popup-main-top-left">
+                  <div class="controls">
+                    <input class="controls-input floatLabel floatLabel" type="text" id="smart" name="email">
+                    <label class="controls-label" for="smart">Смартконтракт</label>
+                  </div>
+                </div>
+                <div class="popup-main-top-right"><a class="popup-main-top-right__link" href="#">Копировать</a></div>
+              </div>
+              <div class="popup-invest">
+                <div class="popup-invest-left">
+                  <div class="controls">
+                    <input class="controls-input floatLabel floatLabel" type="text" id="ETH" name="email">
+                    <label class="controls-label" for="ETH">ETH</label>
+                  </div>
+                  <div class="controls">
+                    <input class="controls-input floatLabel floatLabel" type="text" id="BTC" name="email">
+                    <label class="controls-label" for="BTC">BTC</label>
+                  </div>
+                </div>
+                <div class="popup-invest-center"></div>
+                <div class="popup-invest-right">
+                  <div class="popup-invest-right-item">
+                    <div class="popup-invest-right-item__title">Без бонуса</div>
+                    <div class="popup-invest-right-item__text">0</div>
+                  </div>
+                  <div class="popup-invest-right-item">
+                    <div class="popup-invest-right-item__title">С бонусом</div>
+                    <div class="popup-invest-right-item__text">0</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="popup-footer">
+            <div class="popup-container">
+              <div class="popup-footer__text">Заработай дополнительную скидку для себя и своих друзей! Разошли ссылку на проект, который ты выбрал! <a href="#">http/cryptosale.io/golos-hdheisbdjcusjwbdj</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="container"><a class="footer-logo" href="#"><img class="footer-logo__img" src="assets/images/light.svg"></a>
+          <div class="footer-nav"><a class="footer-nav__link" href="#">Проекты</a><a class="footer-nav__link" href="#">Фонды</a><a class="footer-nav__link" href="#">Правила сервиса</a><a class="footer-nav__link" href="#">Новости</a><a class="footer-nav__link" href="#">О нас</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/scripts/slick.min.js"></script>
+    <script src="assets/scripts/jquery.fancybox.js"></script>
+    <script src="assets/scripts/jquery.datetimepicker.full.js"></script>
+    <script src="assets/scripts/jquery.sumoselect.js"></script>
+    <script src="assets/scripts/main.js"></script>
+  </body>
+</html>
